@@ -1,0 +1,179 @@
+body {
+    font-family: sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 5%;
+    height: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.logo img {
+    margin: 5px;
+}
+
+.navitems {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navitems li a {
+    text-decoration: none;
+    color: #4a5568;
+    font-weight: 400;
+}
+
+.navitems li a:hover {
+    color: #2563eb;
+    text-shadow: 0 4px 10px rgb(169, 169, 229);
+
+}
+
+.btn {
+    background-color: #2563eb;
+    ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 10px rgb(169, 169, 229);
+}
+
+.herosection {
+    background-image: url(assets/banner.jpg);
+    position: relative;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+}
+
+.herocontent h1 span {
+    font-style: italic;
+}
+
+#button {
+    margin-top: 10rem;
+}
+
+.speakercard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 1200px;
+}
+
+.speakergrid {
+    border: 1px solid rgb(199, 194, 194);
+    border-radius: 10px;
+}
+
+.speakergrid p {
+    font-size: 20px;
+}
+
+.speakergrid img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.designation {
+    color: #2563eb;
+    font-size: 10px;
+}
+
+.speakerinfo {
+    padding-left: 20px;
+    gap: 2px;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 2px;
+}
+
+.pricingcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 3rem;
+    width: 80rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+#mainbox {
+    background-color: #151e29;
+    color: white;
+    width: 20rem;
+}
+
+btn-outline {
+    border: 1px solid #151e29;
+    border-radius: 10;
+    padding: 20px 20px;
+    color: #2563eb;
+}
+
+.schedule li {
+    list-style-type: circle;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #151e29;
+    color: white;
+    padding: 0 5%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img {
+    width: 2rem;
+    height: 2rem;
+}
